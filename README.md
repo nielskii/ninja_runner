@@ -1,7 +1,7 @@
 # 🥷 Ninja Runner
 
 <p align="center">
-<img src="hhttps://imgur.com/a/FZwu1iI" width="700"/>
+<img src="https://i.imgur.com/Shjrs1I.png" width="700"/>
 </p>
 <p align="center">
   <strong>Jogo 2D de ação desenvolvido em Python + Pygame</strong>
