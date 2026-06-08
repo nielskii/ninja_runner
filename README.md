@@ -1,7 +1,7 @@
 # 🥷 Ninja Runner
 
 <p align="center">
-  <img src="https://i.imgur.com/9M0Nf1Y.png" width="700"/>
+<img src="https://imgur.com/f3535e60-4081-4e72-be1e-424973110eb8" width="700"/>
 </p>
 
 <p align="center">
