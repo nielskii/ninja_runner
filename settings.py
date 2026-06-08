@@ -1,0 +1,49 @@
+import pygame
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 45
+
+NINJA_TELA_X = 200
+TAMANHO_NINJA     = (120, 120)   # idle / run / invisibility / teleport  (64x64 orig)
+TAMANHO_NINJA_ATK = (180, 120)   # Attack1 (96x64 orig, proporção 3:2)
+FORCA_PULO = -14
+GRAVIDADE = 0.7
+VELOCIDADE_NINJA = 4
+GROUND_Y = 520
+
+TAMANHO_ORC     = (240, 160)   # _Run/_Attack 120x80, proporção 3:2
+TAMANHO_DRAGON  = (240, 240)   # Baby Dragon — 2x maior que ninja (120x120)
+TAMANHO_ARCHER  = TAMANHO_DRAGON   # alias — archer foi substituído pelo dragon
+TAMANHO_MARTIAL = (340, 340)   # boss final — o maior de todos
+
+SCORE_ARCHER = 800
+SCORE_BOSS = 2500
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (50, 200, 50)
+YELLOW = (200, 200, 50)
+DARK_RED = (60, 0, 0)
+GRAY = (40, 40, 40)
+LIGHT_GRAY = (200, 200, 200)
+BLUE_BAR = (100, 200, 255)
+COOLDOWN_RED = (150, 50, 50)
+
+STATE_MENU = 0
+STATE_PLAYING = 1
+STATE_GAME_OVER = 2
+STATE_WIN = 3
+
+LEVEL_ORC = 0
+LEVEL_ARCHER = 1
+LEVEL_BOSS = 2
+
+ENEMY_ORC = 0
+ENEMY_ARCHER = 1
+ENEMY_MARTIAL = 2
+
+ENEMY_WALKING = 0
+ENEMY_ATTACKING = 1
+ENEMY_RETREATING = 2
